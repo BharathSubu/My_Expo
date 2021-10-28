@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "CollegeMate",
+    "slug": "CollegeMate",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/icon.png",
+    "splash": {
+      "image": "./app/assets/appLoader.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#e63c4b"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.bharathsubu.CollegeMate"
+    },
+    "web": {
+      "favicon": "./app/assets/favicon.png"
+    },
+    "description": ""
+  }
+}
